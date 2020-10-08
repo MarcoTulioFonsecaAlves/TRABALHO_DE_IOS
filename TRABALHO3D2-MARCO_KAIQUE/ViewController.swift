@@ -20,20 +20,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func actionLogin(_ sender: Any) {
-        if Usuario.text == "x" && Senha.text == "1234" {
-            performSegue(withIdentifier: "loginSegue", sender: nil)
-        }else{
-            let alert = UIAlertController(title: "Alerta",
-                                          message: "Usurio ou Senha Invalidos",
-                                          preferredStyle: .alert)
-            
-            let acaoCancel = UIAlertAction(title: "Cancelar", style: .cancel)
-            
-            alert.addAction(acaoCancel)
-            present(alert, animated: true)
-        }
-    }
+    
     
 }
 
