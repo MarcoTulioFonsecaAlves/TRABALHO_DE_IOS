@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4819A9252E4EA000B6D698 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4819A8252E4EA000B6D698 /* MainViewController.swift */; };
 		DCB324642525715D00B49C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB324632525715D00B49C53 /* AppDelegate.swift */; };
 		DCB324662525715D00B49C53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB324652525715D00B49C53 /* ViewController.swift */; };
 		DCB324692525715D00B49C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB324672525715D00B49C53 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC4819A8252E4EA000B6D698 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DCB324602525715D00B49C53 /* TRABALHO3D2-MARCO_KAIQUE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TRABALHO3D2-MARCO_KAIQUE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB324632525715D00B49C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB324652525715D00B49C53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				DCB3246A2525716900B49C53 /* Assets.xcassets */,
 				DCB3246C2525716900B49C53 /* LaunchScreen.storyboard */,
 				DCB3246F2525716900B49C53 /* Info.plist */,
+				DC4819A8252E4EA000B6D698 /* MainViewController.swift */,
 			);
 			path = "TRABALHO3D2-MARCO_KAIQUE";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4819A9252E4EA000B6D698 /* MainViewController.swift in Sources */,
 				DCB324662525715D00B49C53 /* ViewController.swift in Sources */,
 				DCB324642525715D00B49C53 /* AppDelegate.swift in Sources */,
 			);
