@@ -24,7 +24,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lJt-g8-pWH">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lJt-g8-pWH">
                                 <rect key="frame" x="20" y="493" width="374" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -51,7 +51,9 @@
                             <constraint firstItem="fyT-zt-MTS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C9R-qH-TLS"/>
                             <constraint firstItem="fyT-zt-MTS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LBl-9D-Oga"/>
                             <constraint firstItem="Te6-GR-SEO" firstAttribute="top" secondItem="lJt-g8-pWH" secondAttribute="bottom" constant="30" id="LJr-Do-O4A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lJt-g8-pWH" secondAttribute="trailing" constant="20" id="Vgr-nx-Hqx"/>
                             <constraint firstItem="lJt-g8-pWH" firstAttribute="top" secondItem="fyT-zt-MTS" secondAttribute="bottom" constant="30" id="VwL-uS-cfl"/>
+                            <constraint firstItem="lJt-g8-pWH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WXQ-Fr-Eon"/>
                             <constraint firstItem="Te6-GR-SEO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ewV-Ee-Gub"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fyT-zt-MTS" secondAttribute="trailing" constant="20" id="y3E-1s-jcH"/>
                         </constraints>
@@ -60,7 +62,7 @@
                     <connections>
                         <outlet property="password" destination="lJt-g8-pWH" id="RTp-ps-Pgh"/>
                         <outlet property="userText" destination="fyT-zt-MTS" id="VeS-iG-oiT"/>
-                        <segue destination="PLq-jI-Oa7" kind="show" id="kN2-bF-lFW"/>
+                        <segue destination="PLq-jI-Oa7" kind="show" identifier="loginSegue" id="kN2-bF-lFW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
