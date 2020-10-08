@@ -22,11 +22,12 @@ class LoginViewController: UIViewController {
     
     @IBAction func Login(_ sender: Any) {
         
-        if let url = URL(string: "")
-        URLSession.shared.dataTask(with: <#T##URLRequest#>)
+        if let url = URL(string: "https://notebooks.googleapis.com/$discovery/rest?version=v1"){
+            URLSession.shared.dataTask(with: url, completionHandler: )
     
     }
     
     
 
+}
 }
