@@ -10,17 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var Senha: UITextField!
-    @IBOutlet var Usuario: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
-    
-    
-    
     
 }
 

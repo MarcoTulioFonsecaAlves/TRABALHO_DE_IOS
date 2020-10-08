@@ -9,25 +9,31 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    
+
     @IBOutlet var userText: UITextField!
     
     @IBOutlet var password: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
-    }
-    
-    @IBAction func Login(_ sender: Any) {
         
-        if let url = URL(string: "https://notebooks.googleapis.com/$discovery/rest?version=v1"){
-            URLSession.shared.dataTask(with: url, completionHandler: )
-    
+        
     }
-    
-    
+        
+        @IBAction func Login(_ sender: Any) {
+            if userText.text == "x" && password.text == "1234" {
+                performSegue(withIdentifier: "loginSegue", sender: nil)
+            }else{
+                let alert = UIAlertController(title: "Alerta",
+                                              message: "Usurio ou Senha Invalidos",
+                                              preferredStyle: .alert)
+                
+                let acaoCancel = UIAlertAction(title: "Cancelar", style: .cancel)
+                
+                alert.addAction(acaoCancel)
+                present(alert, animated: true)
+            }
+        }
 
 }
-}
+
